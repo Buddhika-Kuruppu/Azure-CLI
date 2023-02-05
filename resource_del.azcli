@@ -1,0 +1,1 @@
+az policy exemption create -n exemptLogAnalyticsAgentInstallation --policy-assignment "<policy assignment subscription Id>" --exemption-category "Waiver" --scope "<Resource Id>"
